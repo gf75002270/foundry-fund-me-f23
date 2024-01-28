@@ -93,7 +93,16 @@ $ make #make: *** No targets.  Stop. this means you have installed
 $ git status # you see the status because foundry automatically initialises a git repo for us if nothing then do git init -b main
 $ ls
 $ pwd #see the path
-$ git add . #add all folder and files exept the one that arein the gitignore
+$ git add . #stage: add all folder and files exept the one that arein the gitignore
+$ git log
+$ git commit -m 'Our first commit'
+$ git remote add origin https://github.com/gf75002270/foundry-fund-me-f23.git
+$ git remote -v
+$ git push -u origin main
+# if already existing repo
+$ git remote add origin https://github.com/gf75002270/foundry-fund-me-f23.git
+$ git branch -M main
+$ git push -u origin main
 ```
 
 ### chisel
